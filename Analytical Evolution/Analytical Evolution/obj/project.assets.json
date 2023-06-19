@@ -144,6 +144,19 @@
           "System.Threading.AccessControl": "5.0.0"
         }
       },
+      "OxyPlot.Core/2.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/OxyPlot.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/OxyPlot.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.linux-arm.runtime.native.System.IO.Ports/5.0.0-rtm.20519.4": {
         "type": "package",
         "runtimeTargets": {
@@ -1288,6 +1301,26 @@
         "microsoft.windows.compatibility.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "OxyPlot.Core/2.1.2": {
+      "sha512": "/BuPL1Wa7ZhpKA2DBe72md+S8PgIHF+UP/NsKfO9BiheXnbns1/tqS7s2MWIR1xFy5i+PWVC67KziGPY48mNgA==",
+      "type": "package",
+      "path": "oxyplot.core/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "OxyPlot_128.png",
+        "lib/net40/OxyPlot.dll",
+        "lib/net40/OxyPlot.xml",
+        "lib/net45/OxyPlot.dll",
+        "lib/net45/OxyPlot.xml",
+        "lib/netstandard1.0/OxyPlot.dll",
+        "lib/netstandard1.0/OxyPlot.xml",
+        "lib/netstandard2.0/OxyPlot.dll",
+        "lib/netstandard2.0/OxyPlot.xml",
+        "oxyplot.core.2.1.2.nupkg.sha512",
+        "oxyplot.core.nuspec"
       ]
     },
     "runtime.linux-arm.runtime.native.System.IO.Ports/5.0.0-rtm.20519.4": {
@@ -3226,28 +3259,24 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Bytescout.Spreadsheet >= 4.7.0.2037"
+      "Bytescout.Spreadsheet >= 4.7.0.2037",
+      "OxyPlot.Core >= 2.1.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ITA\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\wangf\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ITA\\source\\repos\\Analytical Evolution\\Analytical Evolution\\Analytical Evolution.csproj",
+      "projectUniqueName": "C:\\Users\\wangf\\OneDrive\\文档\\GitHub\\AnalyticalEvolution\\Analytical Evolution\\Analytical Evolution\\Analytical Evolution.csproj",
       "projectName": "Analytical Evolution",
-      "projectPath": "C:\\Users\\ITA\\source\\repos\\Analytical Evolution\\Analytical Evolution\\Analytical Evolution.csproj",
-      "packagesPath": "C:\\Users\\ITA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ITA\\source\\repos\\Analytical Evolution\\Analytical Evolution\\obj\\",
+      "projectPath": "C:\\Users\\wangf\\OneDrive\\文档\\GitHub\\AnalyticalEvolution\\Analytical Evolution\\Analytical Evolution\\Analytical Evolution.csproj",
+      "packagesPath": "C:\\Users\\wangf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wangf\\OneDrive\\文档\\GitHub\\AnalyticalEvolution\\Analytical Evolution\\Analytical Evolution\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ITA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\wangf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3276,6 +3305,10 @@
           "Bytescout.Spreadsheet": {
             "target": "Package",
             "version": "[4.7.0.2037, )"
+          },
+          "OxyPlot.Core": {
+            "target": "Package",
+            "version": "[2.1.2, )"
           }
         },
         "imports": [

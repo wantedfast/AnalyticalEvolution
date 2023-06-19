@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Bytescout.Spreadsheet" Version="4.7.0.2037" />
+    <PackageReference Include="OxyPlot.Core" Version="2.1.2" />
   </ItemGroup>
 
 </Project>

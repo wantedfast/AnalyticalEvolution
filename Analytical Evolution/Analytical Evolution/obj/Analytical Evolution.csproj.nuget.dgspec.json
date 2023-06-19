@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ITA\\source\\repos\\Analytical Evolution\\Analytical Evolution\\Analytical Evolution.csproj": {}
+    "C:\\Users\\wangf\\OneDrive\\文档\\GitHub\\AnalyticalEvolution\\Analytical Evolution\\Analytical Evolution\\Analytical Evolution.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ITA\\source\\repos\\Analytical Evolution\\Analytical Evolution\\Analytical Evolution.csproj": {
+    "C:\\Users\\wangf\\OneDrive\\文档\\GitHub\\AnalyticalEvolution\\Analytical Evolution\\Analytical Evolution\\Analytical Evolution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ITA\\source\\repos\\Analytical Evolution\\Analytical Evolution\\Analytical Evolution.csproj",
+        "projectUniqueName": "C:\\Users\\wangf\\OneDrive\\文档\\GitHub\\AnalyticalEvolution\\Analytical Evolution\\Analytical Evolution\\Analytical Evolution.csproj",
         "projectName": "Analytical Evolution",
-        "projectPath": "C:\\Users\\ITA\\source\\repos\\Analytical Evolution\\Analytical Evolution\\Analytical Evolution.csproj",
-        "packagesPath": "C:\\Users\\ITA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ITA\\source\\repos\\Analytical Evolution\\Analytical Evolution\\obj\\",
+        "projectPath": "C:\\Users\\wangf\\OneDrive\\文档\\GitHub\\AnalyticalEvolution\\Analytical Evolution\\Analytical Evolution\\Analytical Evolution.csproj",
+        "packagesPath": "C:\\Users\\wangf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wangf\\OneDrive\\文档\\GitHub\\AnalyticalEvolution\\Analytical Evolution\\Analytical Evolution\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ITA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\wangf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,6 +43,10 @@
             "Bytescout.Spreadsheet": {
               "target": "Package",
               "version": "[4.7.0.2037, )"
+            },
+            "OxyPlot.Core": {
+              "target": "Package",
+              "version": "[2.1.2, )"
             }
           },
           "imports": [
